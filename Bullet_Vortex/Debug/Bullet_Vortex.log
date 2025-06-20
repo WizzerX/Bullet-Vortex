@@ -1,0 +1,12 @@
+﻿  Bullet_Vortex.cpp
+Bullet_Vortex.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::VideoMode::VideoMode(class sf::Vector2<unsigned int>,unsigned int)" (??0VideoMode@sf@@QAE@V?$Vector2@I@1@I@Z) referenced in function _main
+Bullet_Vortex.obj : error LNK2019: unresolved external symbol "public: bool __thiscall sf::WindowBase::isOpen(void)const " (?isOpen@WindowBase@sf@@QBE_NXZ) referenced in function _main
+Bullet_Vortex.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QAE@PBDABVlocale@std@@@Z) referenced in function _main
+Bullet_Vortex.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall sf::Window::~Window(void)" (??1Window@sf@@UAE@XZ) referenced in function "public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UAE@XZ)
+Bullet_Vortex.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,enum sf::State,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IW4State@1@ABUContextSettings@1@@Z) referenced in function _main
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\ThirdPartyLib\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\ThirdPartyLib\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\ThirdPartyLib\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\ThirdPartyLib\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\ThirdPartyLib\lib\sfml-network-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Debug\Bullet_Vortex.exe : fatal error LNK1120: 5 unresolved externals
