@@ -1,2 +1,6 @@
-﻿  Bullet_Vortex.cpp
-  Bullet_Vortex.vcxproj -> D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\x64\Debug\Bullet_Vortex.exe
+﻿  Game.cpp
+  Player.cpp
+  main.cpp
+  Generating Code...
+Player.obj : error LNK2001: unresolved external symbol "public: static struct sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2U12@B)
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\x64\Debug\Bullet_Vortex.exe : fatal error LNK1120: 1 unresolved externals
