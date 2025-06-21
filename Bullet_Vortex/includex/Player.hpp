@@ -8,6 +8,11 @@ public:
 	sf::CircleShape shape;
 
 	void draw(sf::RenderWindow& window);
+	void MoveForward();
+	void MoveRight();
+	void MoveLeft();
+	void MoveBack();
+	
 
 private:
 

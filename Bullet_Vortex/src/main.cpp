@@ -3,7 +3,7 @@
 #include "../includex/Player.hpp"
 int main() {
 	Game game;
-	Player player;
+	
 	
 
 	game.run();
