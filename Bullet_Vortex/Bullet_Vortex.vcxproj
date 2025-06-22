@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\maploader.cpp" />
     <ClCompile Include="src\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includex\Game.hpp" />
+    <ClInclude Include="includex\maploader.hpp" />
+    <ClInclude Include="includex\nlohmann\json.hpp" />
     <ClInclude Include="includex\Player.hpp" />
     <ClInclude Include="include\Game.hpp" />
   </ItemGroup>

@@ -3,6 +3,8 @@
 #include "../includex/Player.hpp"
 #include <iostream>
 
+
+
 Game::Game() {
 	window.create(sf::VideoMode({ 1080,720 }), "GameRunning!");
 	isRunning = true;
