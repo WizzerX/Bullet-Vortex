@@ -30,6 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Pixel Crawler - Free Pack\Entities\Characters\Body_A\Animations\Carry_Run\Carry_Run_Down.aseprite" />
+    <None Include="Assets\Map\level1.json" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Game.hpp">
@@ -47,5 +48,10 @@
     <ClInclude Include="includex\maploader.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Map\testmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

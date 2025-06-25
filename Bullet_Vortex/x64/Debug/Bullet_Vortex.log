@@ -1,9 +1,225 @@
-﻿  main.cpp
+﻿  maploader.cpp
 D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\ThirdPartyLib\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
-  (compiling source file 'src/main.cpp')
+  (compiling source file 'src/maploader.cpp')
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdexcept(100,19):
       see declaration of 'std::runtime_error'
       D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\ThirdPartyLib\include\SFML\System\Exception.hpp(41,23):
       see declaration of 'sf::Exception'
   
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,62): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,62): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,62): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,62): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,62): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,62): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,62): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,62): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,62): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,46): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,46): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,46): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,46): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,46): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,46): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,46): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(57,46): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,68): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,68): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,68): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,68): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,68): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,68): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,68): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,68): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,52): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,52): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,52): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,52): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,52): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,52): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,52): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(58,52): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,74): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,74): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,74): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,74): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,74): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,74): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,74): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,74): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,52): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,52): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,52): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,52): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,52): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,52): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,52): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(59,52): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,62): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,62): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,62): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,62): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,62): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,62): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,62): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,62): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,62): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,46): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,46): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,46): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,46): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,46): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,46): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,46): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(62,46): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,74): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,74): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,74): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,74): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,74): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,74): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,74): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,74): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,52): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,52): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,52): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,52): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,52): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,52): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,52): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(63,52): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,68): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,68): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,68): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,68): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,68): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,68): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,68): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,68): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,46): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,46): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,46): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,46): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,46): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,46): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,46): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(64,46): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,65): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,65): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,65): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,65): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,65): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,65): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,65): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,65): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,48): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,48): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,48): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,48): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,48): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,48): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,48): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,48): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(67,48): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,71): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,71): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,71): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,71): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,71): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,71): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,71): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,71): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,71): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,54): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,54): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,54): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,54): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,54): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,54): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,54): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,54): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(68,54): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,77): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,77): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,77): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,77): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,77): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,77): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,77): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,77): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,54): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,54): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,54): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,54): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,54): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,54): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,54): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,54): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(69,54): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,65): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,65): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,65): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,65): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,65): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,65): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,65): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,65): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,48): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,48): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,48): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,48): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,48): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,48): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,48): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,48): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(71,48): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,77): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,77): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,77): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,77): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,77): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,77): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,77): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,77): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,54): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,54): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,54): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,54): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,54): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,54): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,54): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,54): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(72,54): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,71): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,71): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,71): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,71): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,71): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,71): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,71): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,71): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,71): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,48): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,48): warning C4244:         with
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,48): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,48): warning C4244:             T=unsigned int
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,48): warning C4244:         ]
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,48): warning C4244:         and
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,48): warning C4244:         [
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,48): warning C4244:             T=float
+D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\Bullet_Vortex\src\maploader.cpp(73,48): warning C4244:         ]
   Bullet_Vortex.vcxproj -> D:\WebDeve\SFML\SFML_Projects\SFML_GAME\bbGAME\Bullet-Vortex\x64\Debug\Bullet_Vortex.exe

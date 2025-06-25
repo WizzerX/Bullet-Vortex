@@ -153,6 +153,7 @@
     <ClCompile Include="src\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Map\level1.json" />
     <None Include="Assets\Pixel Crawler - Free Pack\Entities\Characters\Body_A\Animations\Carry_Run\Carry_Run_Down.aseprite" />
   </ItemGroup>
   <ItemGroup>
@@ -161,6 +162,9 @@
     <ClInclude Include="includex\nlohmann\json.hpp" />
     <ClInclude Include="includex\Player.hpp" />
     <ClInclude Include="include\Game.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Map\testmap.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

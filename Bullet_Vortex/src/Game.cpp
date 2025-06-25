@@ -3,11 +3,16 @@
 #include "../includex/Player.hpp"
 #include <iostream>
 
+#include "../includex/maploader.hpp"
 
-
+maploader tilemap;
 Game::Game() {
-	window.create(sf::VideoMode({ 1080,720 }), "GameRunning!");
+	window.create(sf::VideoMode({ 1440,1080 }), "TileMap!");
 	isRunning = true;
+
+	
+
+	tilemap.loadfromfile("Assets/Map/level1.json", "Assets/Map/testmap.png");
 }
 Player player;
 void Game::run()
@@ -31,9 +36,11 @@ void Game::render()
 	
 
 	window.clear();
-	player.draw(window);
 	
+
+	window.draw(tilemap);
 		//window.clear(sf::Color::Black);
+	player.draw(window);
 		window.display();
 
 
